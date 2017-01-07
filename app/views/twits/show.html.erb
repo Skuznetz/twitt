@@ -9,6 +9,9 @@
   <strong>Content:</strong>
   <%= @twit.content %>
 </p>
+<p>
+<%= @twit.user_id %>
+</p>
 
 <%= link_to 'Edit', edit_twit_path(@twit) %> |
 <%= link_to 'Back', twits_path %>
